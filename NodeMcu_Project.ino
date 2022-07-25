@@ -27,9 +27,9 @@ unsigned long previousMillis = 0;
 const long interval = 2000;
 int Pin_state = LOW; 
 
-const char* ssid = "Caravaggio";//wifi名称
-const char* password = "kalawaqiao";
-const char* mqtt_server = "47.240.14.11";//mqtt服务器
+const char* ssid = "";//wifi名称
+const char* password = "";
+const char* mqtt_server = "";//mqtt服务器
 const char* pubTopic = "/NodeMcu/pub";//上行topic
 const char* subTopic = "/NodeMcu/sub";//下行topic
 
